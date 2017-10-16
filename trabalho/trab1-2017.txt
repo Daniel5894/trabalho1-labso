@@ -8,8 +8,6 @@ Turno: Noite
 
 Com relação aos comandos do SO Linux, responda as perguntas abaixo:
 
-
-
 1 - Qual o comando linux para imprimir uma string na tela?
 
 Resposta: echo
@@ -23,8 +21,6 @@ Resposta: pwd, ls e cd
 
 pwd (para mostrar o diretório corrente)
 ls (para listar todos os arquivos da pasta atual) 
-
-
 cd <nome do diretório> (para ir para o diretório desejado) e cd .. (para voltar para o diretório anterior)
  
 3 - Existe um arquivo chamado access.log na sua pasta atual. Qual é o 
@@ -36,8 +32,6 @@ Resposta: tail -n3 access.log
 Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
 
 Resposta:
-
- 
 touch daniel1.txt
 touch daniel2.txt   ou touch daniel1.txt daniel2.txt daniel3.txt
 touch daniel3.txt
@@ -46,8 +40,6 @@ touch daniel3.txt
 anteriormente para esta pasta.
 
 Resposta:
-
-
 mkdir daniel05
 cp daniel1.txt /home/daniel/bin/trabalho1-labso/trabalho/daniel05
 cp daniel2.txt /home/daniel/bin/trabalho1-labso/trabalho/daniel05
@@ -65,11 +57,9 @@ Resposta2 (numero de diretorios encontrados) : 4 diretórios
 Extrair todos os enderecos IP dos arquivos 
 que começam com "access.log" imprimindo um endereço IP por linha.
 
-
 Resposta: grep '[0-9]\{3-\}.[0-9]\{3\}.[0-9].{3\}.[0-9].{3\}' "access.log"
  
 8 - listar o conteudo de seu diretorio e direcionar a saida 
 para o primeiro arquivo do item 4.
-
 
 Resposta: ls> daniel1.txt
